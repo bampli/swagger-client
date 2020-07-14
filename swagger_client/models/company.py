@@ -30,25 +30,21 @@ class Company(object):
     """
     swagger_types = {
         'company_id': 'str',
-        'name': 'str',
-        'address': 'CompanyAddress'
+        'name': 'str'
     }
 
     attribute_map = {
         'company_id': 'company_id',
-        'name': 'name',
-        'address': 'address'
+        'name': 'name'
     }
 
-    def __init__(self, company_id=None, name=None, address=None):  # noqa: E501
+    def __init__(self, company_id=None, name=None):  # noqa: E501
         """Company - a model defined in Swagger"""  # noqa: E501
         self._company_id = None
         self._name = None
-        self._address = None
         self.discriminator = None
         self.company_id = company_id
         self.name = name
-        self.address = address
 
     @property
     def company_id(self):
@@ -97,29 +93,6 @@ class Company(object):
             raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
 
         self._name = name
-
-    @property
-    def address(self):
-        """Gets the address of this Company.  # noqa: E501
-
-
-        :return: The address of this Company.  # noqa: E501
-        :rtype: CompanyAddress
-        """
-        return self._address
-
-    @address.setter
-    def address(self, address):
-        """Sets the address of this Company.
-
-
-        :param address: The address of this Company.  # noqa: E501
-        :type: CompanyAddress
-        """
-        if address is None:
-            raise ValueError("Invalid value for `address`, must not be `None`")  # noqa: E501
-
-        self._address = address
 
     def to_dict(self):
         """Returns the model properties as a dict"""

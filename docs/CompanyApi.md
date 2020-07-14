@@ -29,13 +29,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 body = swagger_client.Company() # Company | 
 
 try:
@@ -58,7 +54,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -81,13 +77,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 body = swagger_client.Product() # Product | 
 
 try:
@@ -110,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -133,13 +125,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 companyid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Company
 
 try:
@@ -161,7 +149,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -184,13 +172,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 productid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Product
 
 try:
@@ -212,7 +196,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -441,13 +425,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 body = swagger_client.Company() # Company | 
 companyid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Company
 
@@ -472,7 +452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -495,13 +475,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CompanyApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CompanyApi()
 body = swagger_client.Product() # Product | 
 productid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Product
 
@@ -526,7 +502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 

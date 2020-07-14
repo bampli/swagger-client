@@ -34,13 +34,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Cyclo() # Cyclo | 
 
 try:
@@ -63,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -86,13 +82,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Stage() # Stage | 
 
 try:
@@ -115,7 +107,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -138,13 +130,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Task() # Task | 
 
 try:
@@ -167,7 +155,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -190,13 +178,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 cycloid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Cyclo
 
 try:
@@ -218,7 +202,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -241,13 +225,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 stageid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Stage
 
 try:
@@ -269,7 +249,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -292,13 +272,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 taskid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Task
 
 try:
@@ -320,7 +296,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -655,13 +631,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Cyclo() # Cyclo | 
 cycloid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Cyclo
 
@@ -686,7 +658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -709,13 +681,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Stage() # Stage | 
 stageid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Stage
 
@@ -740,7 +708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -763,13 +731,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.CycloApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.CycloApi()
 body = swagger_client.Task() # Task | 
 taskid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Task
 
@@ -794,7 +758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 

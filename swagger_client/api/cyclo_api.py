@@ -113,7 +113,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/cyclo/', 'POST',
@@ -212,7 +212,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/stage/', 'POST',
@@ -311,7 +311,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/task/', 'POST',
@@ -402,7 +402,7 @@ class CycloApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/cyclo/{cycloid}', 'DELETE',
@@ -493,7 +493,7 @@ class CycloApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/stage/{stageid}', 'DELETE',
@@ -584,7 +584,7 @@ class CycloApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/task/{taskid}', 'DELETE',
@@ -1297,7 +1297,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/cyclo/{cycloid}', 'PUT',
@@ -1404,7 +1404,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/stage/{stageid}', 'PUT',
@@ -1511,7 +1511,7 @@ class CycloApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/task/{taskid}', 'PUT',

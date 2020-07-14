@@ -113,7 +113,7 @@ class FacilityApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/facility/', 'POST',
@@ -212,7 +212,7 @@ class FacilityApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/wip/', 'POST',
@@ -303,7 +303,7 @@ class FacilityApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/facility/{facilityid}', 'DELETE',
@@ -394,7 +394,7 @@ class FacilityApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/wip/{wipid}', 'DELETE',
@@ -905,7 +905,7 @@ class FacilityApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/facility/{facilityid}', 'PUT',
@@ -1012,7 +1012,7 @@ class FacilityApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/wip/{wipid}', 'PUT',
