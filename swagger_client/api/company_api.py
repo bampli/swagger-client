@@ -113,7 +113,7 @@ class CompanyApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/company/', 'POST',
@@ -212,7 +212,7 @@ class CompanyApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/product/', 'POST',
@@ -303,7 +303,7 @@ class CompanyApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/company/{companyid}', 'DELETE',
@@ -394,7 +394,7 @@ class CompanyApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/product/{productid}', 'DELETE',
@@ -901,7 +901,7 @@ class CompanyApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/company/{companyid}', 'PUT',
@@ -1008,7 +1008,7 @@ class CompanyApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['HTTP_BASIC']  # noqa: E501
+        auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
             '/product/{productid}', 'PUT',

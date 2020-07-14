@@ -23,7 +23,6 @@ from swagger_client.api_client import ApiClient
 from swagger_client.configuration import Configuration
 # import models into sdk package
 from swagger_client.models.company import Company
-from swagger_client.models.company_address import CompanyAddress
 from swagger_client.models.contact import Contact
 from swagger_client.models.cyclo import Cyclo
 from swagger_client.models.error import Error

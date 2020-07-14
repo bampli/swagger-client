@@ -29,13 +29,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 body = swagger_client.Facility() # Facility | 
 
 try:
@@ -58,7 +54,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -81,13 +77,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 body = swagger_client.Wip() # Wip | 
 
 try:
@@ -110,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -133,13 +125,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 facilityid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Facility
 
 try:
@@ -161,7 +149,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -184,13 +172,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 wipid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Wip
 
 try:
@@ -212,7 +196,7 @@ void (empty response body)
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -443,13 +427,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 body = swagger_client.Facility() # Facility | 
 facilityid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Facility
 
@@ -474,7 +454,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
@@ -497,13 +477,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
-# Configure HTTP basic authorization: HTTP_BASIC
-configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.FacilityApi(swagger_client.ApiClient(configuration))
+api_instance = swagger_client.FacilityApi()
 body = swagger_client.Wip() # Wip | 
 wipid = '\"0e8c9fb0-ad98-11e6-bf2e-47644ada7c0f\"' # str | Identifier of the Wip
 
@@ -528,7 +504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[HTTP_BASIC](../README.md#HTTP_BASIC)
+No authorization required
 
 ### HTTP request headers
 
