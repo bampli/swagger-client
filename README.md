@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bampli/swagger-client.svg?branch=master)](https://travis-ci.org/bampli/swagger-client)
+
 # swagger-client
 The API for the Business Amplifier project.
 
