@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from api.facility_api import FacilityApi  # noqa: E501
+from swagger_client.api.facility_api import FacilityApi  # noqa: E501
 from swagger_client.rest import ApiException
 
 
@@ -23,7 +23,7 @@ class TestFacilityApi(unittest.TestCase):
     """FacilityApi unit test stubs"""
 
     def setUp(self):
-        self.api = api.facility_api.FacilityApi()  # noqa: E501
+        self.api = FacilityApi()  # noqa: E501
 
     def tearDown(self):
         pass

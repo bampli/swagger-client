@@ -15,15 +15,15 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-# from swagger_client.api.company_api import CompanyApi  # noqa: E501
-# from swagger_client.rest import ApiException
+from swagger_client.api.company_api import CompanyApi  # noqa: E501
+from swagger_client.rest import ApiException
 
 
 class TestCompanyApi(unittest.TestCase):
     """CompanyApi unit test stubs"""
 
     def setUp(self):
-        self.api = api.company_api.CompanyApi()  # noqa: E501
+        self.api = CompanyApi()  # noqa: E501
 
     def tearDown(self):
         pass

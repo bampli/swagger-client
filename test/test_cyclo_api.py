@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from api.cyclo_api import CycloApi  # noqa: E501
+from swagger_client.api.cyclo_api import CycloApi  # noqa: E501
 from swagger_client.rest import ApiException
 
 
@@ -23,7 +23,7 @@ class TestCycloApi(unittest.TestCase):
     """CycloApi unit test stubs"""
 
     def setUp(self):
-        self.api = api.cyclo_api.CycloApi()  # noqa: E501
+        self.api = CycloApi()  # noqa: E501
 
     def tearDown(self):
         pass
